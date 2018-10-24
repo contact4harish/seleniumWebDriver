@@ -1,0 +1,805 @@
+/1. Manual Testing Concepts/  
+****************************                                                                                             10		
+Why testing is required?
+
+There are 3 possibilities of the outcome of the
+Testing. The developed product is good and can be released
+in the market or there should be a bug or there should be
+some sort of enhancement to upgrade the developed product.
+That's the reason in some companies, there are separate
+departments for testing the product. In some companies they
+are also called auditors. Testers should think different
+than normal as how the product works and compare the
+expected behavior with the actual behavior of the product
+and then check it out whether its working or not.
+Enhancement is the process that should always happen for the
+product to get upgraded in time to survive in the market and
+bug is the one that should never occur as it will take the
+product out of the market...
+
+This is called as testing and this is how testing had to be
+done...
+		
+What types of application we test
+
+    https://www.testingexcellence.com/types-of-software-testing-complete-list/
+
+
+
+
+	
+what is SDLC and different phases in SDLC?
+
+SDLC:
+
+SDLC is Software Development Life Cycle. It is the sequence of activities carried out by Developers to design and develop high-quality software.
+Though SDLC uses the term ‘Development’, it does not involve just coding tasks done by developers but also incorporates the tasks 
+contributed by testers and stakeholders.
+In SDLC, test cases are created.
+
+STLC:
+STLC is Software Testing Life Cycle. It consists of series of activities carried out by Testers methodologically to test your software product.
+Though STLC uses the term “testing” it does not involve just testers, at some instances, they have to involve developers as well.
+In STLC Test cases are executed.
+		
+what is waterfall method
+
+The waterfall model is a sequential (non-iterative) design process, used in software development processes, 
+in which progress is seen as flowing steadily downwards (like a waterfall) 
+through the phases of conception, initiation, analysis, design, construction, testing, production/implementation and maintenance.
+		
+what is agile method
+
+Agile SDLC model is a combination of iterative and incremental process models 
+with focus on process adaptability and customer satisfaction by rapid delivery of working software product. 
+Planning
+Requirements Analysis
+Design
+Coding
+Unit Testing and
+Acceptance Testing.
+
+		
+what is scrum methodology
+
+
+Scrum is an Agile framework for completing complex projects.
+Scrum originally was formalized for software development projects, but it works well for any complex, innovative scope of work. 
+The possibilities are endless. The Scrum framework is deceptively simple.
+
+A product owner creates a prioritized wish list called a product backlog.
+During sprint planning, the team pulls a small chunk from the top of that wish list, a sprint backlog, and decides how to implement those pieces.
+The team has a certain amount of time — a sprint (usually two to four weeks) — to complete its work, but it meets each day to assess its progress (daily Scrum).
+Along the way, the ScrumMaster keeps the team focused on its goal.
+At the end of the sprint, the work should be potentially shippable: ready to hand to a customer, put on a store shelf, or show to a stakeholder.
+The sprint ends with a sprint review and retrospective.
+As the next sprint begins, the team chooses another chunk of the product backlog and begins working again.
+
+		
+what is the process in agile model
+
+
+		
+what is product back log items	
+
+
+Product Backlog Items can range from specifications and requirements, to use cases, epics, User Stories, or even bugs, chores, or timeboxed research tasks. 
+Each PBI must have these qualities:
+         Description: What the goal of the PBI is.
+         Value: the Business Value of the PBI as determined by the Product Owner.
+         Estimate: the Team needs to estimate the relative effort it will take to move the PBI to Done.
+         Order: The Product Owner needs to prioritize PBIs by their relative value.
+Together these qualities make up the Definition of Ready. Having a ready Backlog can double a Team's Velocity. 
+Ideally, PBIs reflect the needs of customers or stakeholders. 
+A common way to incorporate the end users' needs is to write the PBI in the form of a User Story.
+
+	
+what is user story/feature/sprint back log items and tasks in user story	
+
+
+Epic - something so big it probably won't fit into a sprint, is not clearly understood in terms of customer requirements, and should be broken down into stories. 
+T-shirt sizing is a common way to size epics. Another way is to say we think it could take X to Y iterations to do this work. 
+Epics are usually defined during initial product roadmapping and decomposed into stories in the product backlog as more is learned.
+
+Story - something actionable and small enough to fit in a sprint. These are story pointed and defined using INVEST criteria. 
+Stories should deliver a vertical slice of functionality to the customer that is valuable and complete by the end of an iteration. 
+Stories are usually created throughout product development, more so leading up to iteration planning and also during higher level product roadmapping.
+
+Tasks - decomposed parts of a story that get into the HOW the story will be completed. 
+Tasks can be hour estimated if desired. 
+Tasks are usually defined by the people doing the work (developers, QA, etc), 
+whereas stories and epics are generally created by the customer or the product owner representing the customer. 
+Tasks are created within the bounds of an iteration because they are short lived. 
+There is very little value is tasking out stories that won't be worked on in the upcoming iteration.
+
+
+	
+what is sprint planing meeting	
+
+
+Sprint planning is a timeboxed working session that lasts roughly 1 hour for every week of a sprint.  
+In Scrum, the sprint planning meeting is attended by the product owner, ScrumMaster and the entire Scrum team. 
+Outside stakeholders may attend by invitation of the team, although this is rare in most companies.
+
+There are two defined artifacts that result from a sprint planning meeting:
+A sprint goal
+A sprint backlog
+
+A sprint goal is a short, one- or two-sentence, description of what the team plans to achieve during the sprint. 
+It is written collaboratively by the team and the product owner. 
+The following are example sprint goals on an eCommerce application:
+Implement basic shopping cart functionality including add, remove, and update quantities.
+Develop the checkout process: pay for an order, pick shipping, order gift wrapping, etc.
+
+The sprint backlog is the other output of sprint planning. 
+A sprint backlog is a list of the product backlog items the team commits to delivering plus the list of tasks necessary to delivering those product backlog items. 
+Each task on the sprint backlog is also usually estimated.
+
+
+
+	
+what is sprint review meeting	
+
+
+The sprint review meeting is intentionally kept very informal, no ppt and less than two hours of preparation time for the meeting.
+A sprint review meeting should not become a distraction or significant detour for the team; rather, it should be a natural result of the sprint.
+Participants in the sprint review typically include the product owner, the Scrum team, the ScrumMaster, management, customers and developers from other projects.
+During the sprint review, the project is assessed against the sprint goal determined during the sprint planning meeting. 
+Ideally, the team has completed each product backlog item brought into the sprint, but it's more important that they achieve the overall goal of the sprint.
+
+	
+what is sprint retrospective 	
+
+
+The retrospective includes three main questions/points for discussion:
+What went well during the sprint cycle?
+What went wrong during the sprint cycle?
+What could we do differently to improve?
+The sprint retrospective is an important mechanism that allows a team to continuously evolve and improve throughout the life of a project.
+
+It is important that everyone, including the team, product owner, and ScrumMaster, get a chance to air their opinions in an open, honest, yet constructive atmosphere. 
+It often also helps management to get feedback from the team about the work and progress of project.
+
+
+	
+what is story grooming	
+
+Backlog grooming is when the product owner and some, or all, of the rest of the team review items on the backlog to ensure 
+the backlog contains the appropriate items, that they are prioritized, and that the items at the top of the backlog are ready for delivery.
+
+	
+what is burndown chart and velocity	
+
+The Scrum Burndown Chart is a visual measurement tool that shows the completed work per day against the projected rate of completion for the current project release. 
+Its purpose is to enable that the project is on the track to deliver the expected solution within the desired schedule.
+
+The rate of progress of a Scrum Team is called "velocity". 
+It expresses the amount of e.g. story points completed per iteration. 
+An import rule for calculating the velocity is that only stories that are completed at the end of the iteration are counted. 
+Counting partially finished work (e.g. coding only - test missing) is strictly forbidden.
+
+	
+what is user acceptance criteria test cases	
+
+formal testing with respect to user needs, requirements, and business processes conducted to determine 
+whether a system satisfies the acceptance criteria and to enable the user, customers or other authorized entity to determine whether or not to accept the system.
+	
+what is v model?
+
+
+V- model means Verification and Validation model. 
+Just like the waterfall model, the V-Shaped life cycle is a sequential path of execution of processes. 
+Each phase must be completed before the next phase begins.
+V-Model is one of the many software development models.
+Testing of the product is planned in parallel with a corresponding phase of development in V-model.
+		
+what is STLC?
+
+Software Testing Life Cycle (STLC) is the testing process which is executed in systematic and planned manner. 
+In STLC process, different activities are carried  out to improve the quality of the product. 
+Let’s quickly see what all stages are involved in typical Software Testing Life Cycle (STLC).
+
+Following steps are involved in Software Testing Life Cycle (STLC). Each step is have its own Entry Criteria and deliverable.
+
+Requirement Analysis
+Test Planning
+Test Case Development
+Environment Setup
+Test Execution
+Test Cycle Closure
+Ideally, the next step is based on previous step or we can say next step cannot be started unless and until previous step is completed. 
+It is possible in the ideal situation, but practically it is not always true.
+
+		
+what is defect?		
+
+
+A Software Defect / Bug is a condition in a software product which does not meet a software requirement (as stated in the requirement specifications) 
+or end-user expectations (which may not be specified but are reasonable).
+
+
+how to arise a defect and what we specify while logging defect?	
+
+When we talk about incidents we mean to indicate the possibility that a questionable behavior is not necessarily a true defect. 
+We log these incidents so that we can keep the record of what we observed and can follow up the incident and track what is done to correct it.
+
+It is most common to find incident logging or defect reporting processes and tools in use during formal, independent test phases.
+But it will be a good idea to log, report, track, and manage incidents found during development 
+and reviews because it gives useful information about the early and cheaper defect detection and removal activities.
+Incidents that are not logged may not be tracked and forgotten which can results in the incident occurring again.
+
+
+defect lifecycle
+
+Defect life cycle is a cycle which a defect goes through during its lifetime. 
+It starts when defect is found and ends when a defect is closed, after ensuring it’s not reproduced. 
+Defect life cycle is related to the bug found during testing.	
+
+Bug or defect life cycle includes following steps or status:
+
+New:  When a defect is logged and posted for the first time. It’s state is given as new.
+Assigned:  After the tester has posted the bug, the lead of the tester approves that the bug is genuine and he assigns the bug to corresponding developer and the developer team. It’s state given as assigned.
+Open:  At  this state the developer has started analyzing and working on the defect fix.
+Fixed:  When developer makes necessary code changes and verifies the changes then he/she can make bug status as ‘Fixed’ and the bug is passed to testing team.
+Pending retest:  After fixing the defect the developer has given that particular code for retesting to the tester. Here the testing is pending on the testers end.erified: 
+Reopen:  If the bug still exists even after the bug is fixed by the developer, the tester changes the status to “reopened”. The bug goes through the life cycle once again.
+Closed:  Once the bug is fixed, it is tested by the tester. If the tester feels that the bug no longer exists in the software, he changes the status of the bug to “closed”.
+Duplicate: If the bug is repeated twice or the two bugs mention the same concept of the bug, then one bug status is changed to “duplicate“.
+Rejected: If the developer feels that the bug is not genuine, he rejects the bug. Then the state of the bug is changed to “rejected”.
+Deferred: The bug, changed to deferred state means the bug is expected to be fixed in next releases. The reasons for changing the bug to this state have many factors. 
+Some of them are priority of the bug may be low, lack of time for the release or the bug may not have major effect on the software.
+Not a bug:  The state given as “Not a bug” if there is no change in the functionality of the application. 
+For an example: If customer asks for some change in the look and field of the application like change of colour of some text then it is not a bug but just some change in the looks of the  application.
+
+		
+What is unit testing?
+
+Unit testing is a software development process in which the smallest testable parts of an application, 
+called units, are individually and independently scrutinized for proper operation. 
+Unit testing can be done manually but is often automated.
+
+		
+when do we use regression testing?
+
+Regression testing is a type of software testing which verifies that software which was previously developed 
+and tested still performs the same way after it was changed or interfaced with other software.
+Changes may include software enhancements, patches, configuration changes, etc.
+
+		
+What is integration testing?
+
+
+Integration testing (sometimes called integration and testing, abbreviated I&T) 
+is the phase in software testing in which individual software modules are combined and tested as a group. 
+It occurs after unit testing and before validation testing.
+
+		
+when do we use integration testing?	
+
+Integration Testing is a level of software testing where individual units are combined and tested as a group. 
+The purpose of this level of testing is to expose faults in the interaction between integrated units. 
+Test drivers and test stubs are used to assist in Integration Testing.
+
+	
+when do we use smoke testing and sanity testing?	
+
+Smoke Testing is a kind of Software Testing performed after software build to ascertain that the critical functionalities of the program is working fine. 
+It is executed "before" any detailed functional or regression tests are executed on the software build.
+The purpose is to reject a badly broken application, so that the QA team does not waste time installing and testing the software application.
+
+Sanity testing is a kind of Software Testing performed after receiving a software build, 
+with minor changes in code, or functionality, to ascertain that the bugs have been fixed and no further issues are introduced due to these changes. 
+The goal is to determine that the proposed functionality works roughly as expected. 
+If sanity test fails, the build is rejected to save the time and costs involved in a more rigorous testing.
+
+	
+what is unit testing?	
+
+
+Unit testing is a software development process in which the smallest testable parts of an application, called units,
+are individually and independently scrutinized for proper operation. Unit testing can be done manually but is often automated.
+
+	
+what is UAT?	
+
+
+User acceptance testing (UAT) is the last phase of the software testing process. 
+During UAT, actual software users test the software to make sure it can handle required tasks in real-world scenarios, according to specifications.
+
+UAT is one of the final and critical software project procedures that must occur before newly developed software is rolled out to the market.
+UAT is also known as beta testing, application testing or end user testing.
+	
+what is alpha and beta testing?	
+
+
+Alpha testing. Alpha testing is simulated or actual operational testing by potential users/customers or an independent test team at the developers' site. 
+Alpha testing is often employed for off-the-shelf software as a form of internal acceptance testing, before the software goes to beta testing.
+	
+when do we use white box testing and block box testing?	
+
+
+White-box testing (also known as clear box testing, glass box testing, transparent box testing, and structural testing) 
+is a method of testing software that tests internal structures or workings of an application, as opposed to its functionality (i.e. black-box testing). 
+In white-box testing an internal perspective of the system, as well as programming skills, are used to design test cases. 
+
+	
+what we will do if we don't have a time to test all stories/ execute test cases?
+
+From my experience it is always important to prioritize the tests from the beginning of project onwards. 
+Especially in Agile world, Customers are expecting some executable piece in regular basis. 
+Waiting till the end to prioritize the tests would lead to missing of key test cases.
+
+We used to categorize the tests as P1, P2, P3 and P4. 
+All the test cases were automated. 
+But P1 and P2 are the tests were scheduled to execute on daily basis and P3 and P4 were added at the time of sprint closure. 
+Those which cannot automate will be marked as Manual.
+
+		
+what we will do if come across any critical severity issue before release day?	
+
+In situation like yours, you
+
+escalate, informing management quickly about found defect (it is their job to understand client priorities and negotiate with the customer)
+make a post-mortem analysis to find out a root cause why such severe defect was found at such late time
+improve your process so root cause is eliminated.
+
+
+	
+when do we use automation testing?	
+
+
+Regression Testing: For re-testing preexisting application functions that
+are being carried forward to new versions (usually the majority, unless
+app is brand new)
+Smoke Testing: For getting a quick high-level assessment on the
+quality of a build and making go / no-go decision on deeper testing
+Static & Repetitive Tests: For automating testing tasks that are
+repetitive and relatively unchanging from one test cycle to the next
+Data Driven Testing: For testing application functions where the same
+functions needs to be validated with lots of different inputs & large data
+sets (i.e. login, search)
+Load & Performance Testing: No viable manual alternative exists
+
+
+	
+what tester will do in each phase of SDLC?	
+
+
+Testing Phase will start from Requirement stage itself
+1. Requirement stage - PM,Tech.Lead, Testlead will review the document
+2. Design Stage - PM or Test lease will review the document
+3. coding Stage - Testlead will prepare Testplan, Tester will prepare testcases
+4. Testing Stage - Tester will execute the testcase
+
+	
+difference between load and performance testing?
+
+   Performance Testing = how fast is the system?Load Testing = how much volume can the system process?
+
+   Performance testing seems to me to be much more broad than load testing. Consider:
+
+A web developer can test the speed at which a page renders in a browser, and that is testing performance. 
+Yet, that test would have nothing to do with load.
+I might analyze the efficiency at which my database processes a single specific SQL query, 
+and the resulting speed of delivery of the records can be the slowest component of the whole page building process. 
+Measuring that speed is about performance, but only one transaction is involved (small load).
+Load testing is usually focused on metrics like requests per second and concurrent users (the cause); 
+whereas performance testing is more concerned with response times (the effect).
+
+
+		
+different types of non-functional testing types?	
+
+
+While functional testing is concerned about business requirements, 
+non-functional testing is designed to figure out if your product will provide a good user experience. 
+For example, non-functional tests are used to determine how fast the product responds to a request or how long it takes to do an action. 
+Examples of non-functional tests include:
+Load/Performance testing
+Compatibility testing
+Localization testing
+Security testing
+Reliability testing
+Stress testing
+Usability testing
+Compliance testing
+
+	
+what is test case?		
+
+
+So take a quick look at the Definition of Test Cases and Test Scenarios:
+
+Test Case: A test case is a set of conditions or variables under which a tester will determine whether an application, 
+software system or one of its features is working as it was originally established for it to do.
+
+Test Scenario: The exhaustive testing is not possible due to large number of data combinations and large number of possible paths in the software. 
+Scenario testing is to make sure that end to end functionality of application under test is working as expected.
+Also check if the all business flows are working as expected. 
+In scenario testing tester need to put his/her foot in the end users shoes to check and perform the action as how they are using application under test. 
+In scenario testing the preparation of scenarios would be the most important part, to prepare the scenario tester needs to consult or take help from the client, stakeholder or developers.
+
+
+what is test planning/test strategy document	
+
+
+To find out the “Difference between Test Strategy and Test Plan“, first we need to see their individual definition. Here they are:
+
+Test strategy is a high level document which defines the approach for software testing. 
+It is basically derived from the Business Requirement document. 
+Test strategy is developed by project manager or business analyst. 
+It is kind of static document which sets the standards for testing so not updated often.
+
+Test plan is derived from SRS (Software Requirement Specification) which is prepared by test lead or manager. 
+The main goal of test plan is to include all the details related to testing such as what to test, when to test, how to test and who will be the tester. 
+Test plan is often not updated but if there is some new feature or change is introduced then it has to be updated accordingly.
+
+	
+what is Exit and Entry criteria :
+
+Entry & Exit Criteria
+Entry and Exit criteria are required to start and end the testing. It is must for the success of any project.
+If you do not know where to start and where to finish then your goals are not clear. By defining exit and entry criteria you define your boundaries. For instance, you can define entry criteria that the customer should provide the requirement document or acceptance plan. If these entry criteria are not met then you will not start the project. On the other end, you can also define exit criteria for your project. For
+ instance, one of the common exit criteria in projects is that the customer has successfully executed
+ the acceptance  test plan.
+
+
+
+what is TDD and BDD (cucumber framework)
+
+
+ATDD usually involves establishing the criteria first, most often from a user perspective, and, 
+acceptance tests are developed and run to see the results of failure with the right code based on examples.
+Customer need technical help. Developer and Tester to provide technical support. 
+Pair wise authoring. Developers need business knowledge. Customer can provide business rules. Pair wise implementation
+
+TDD is repetition of a very short development cycle. Code is written specifically to pass a given test case. 
+When the written code successfully passes the test (‘green’), the passing code is refactored. 
+Known as ‘red-green-refactor,’ this process is the mantra of TDD.
+
+Test Approach for BDD
+ATDD combines the general techniques and principles of TDD 
+with ideas from domain-driven design ATDD is practice of writing tests first, but focuses on tests which describe behavior, 
+rather than tests which test a unit of implementation.
+		
+how do we write test cases in BDD format
+
+
+BDD aims to explain the behaviour of a system in easy to understand language. 
+Using BDD and Scenarios allows requirements and tests to utilise the same approach in documenting system behaviour. 
+In some cases, the Scenarios that are written can be converted into Automated Tests. 
+The format is fairly simple, but sometimes hard to get your head around how to write in this format. 
+In order to explain how it works in practice, I will be using the Facebook registration page as an example within my Scenarios
+
+
+Given [context],
+And [more context],
+When [event],
+And [another event],
+Then [outcome],
+And [another outcome].
+
+		
+what is priority and severity in defect?	
+
+
+Severity is defined as the degree of impact a Defect has on the development or operation of a component application being tested.
+Higher effect on the system functionality will lead to the assignment of higher severity to the bug. 
+Quality Assurance engineer usually determines the severity level of defect
+
+Priority is defined as the order in which a Defect should be fixed. Higher the priority the sooner the defect should be resolved.
+Defects that leave the software system unusable are given higher priority over defects that cause a small functionality of the software to fail.
+
+	
+how to estimate test cases?	
+
+
+Test Estimation is a management activity which approximates how long a Task would take to complete. 
+Estimating effort for the test is one of the major and important tasks in Test Management.
+
+        factors based on test estimation
+Resources:  Resources are required to carry out any project tasks. They can be people, equipment, facilities, funding, or anything else capable of definition required for the completion of a project activity.
+Times : Time is the most valuable resource in a project. Every project has a  deadline to delivery.
+Human Skills : Human skills mean the knowledge and the experience of the Team members. They affect to your estimation. For example, a team, whose members have low testing skills, will take more time to finish the project than the one which has high testing skills.
+Cost: Cost is the project budget. Generally speaking, it means how much money it takes to finish the project.
+
+How to estimate?
+List of Software Test Estimation Techniques
+
+Work Breakdown Structure
+3-Point Software Testing Estimation Technique
+Wideband Delphi technique
+Function Point/Testing Point Analysis
+Use – Case Point Method
+Percentage distribution
+Ad-hoc method
+
+	
+what is most challenge defect u came across?	
+	
+
+We have a reports module, in this client has raised an issue that date range is not being calculated properly for periods.
+Ex: Today is 18 July 2016. Monday
+Data range (drop down) : This week : <First day of this week> to <Current day>
+last week: As above
+So the actual dates are : This week : <18-July-16> to <18-July-16>
+Last week: <11-July-16> to <17-July-16>
+For us report shown as expected, but for client it's shown as below
+This week : <18-July-16> to <17-July-16>
+Wonedered as how he got the issue, we both dev and testing team verified and spend so much time but never found, 
+one weekend i gone to office and tried with a fresh mood.. found the reason with in 10 mins..at last reason found by me. :)
+Reason: Issue occured if and only if ran the report on sundays, we have never worked on sundays, so this is the reason.
+Finally i can said this is one of the best bug found in my life.
+
+
+1. If a defect is found and later is not reproducible then steps to reproduce that defect is a challenge.
+2. I was testing a mobile app A, there was multiple features which could be added as a bookmark. While going through one flow, it was working fine.
+But if via one flow, the bookmark was added and removed for Y feature and the bookmark section was accessed from second flow,
+then automatically bookmark was added for Y feature. After spending one full day, it took 17 steps to find the exact issue.
+3. There was another app B having a field that had maximum character limit of 13 characters, 
+I entered 12 characters alphabets and 13th character as an emoji since emoji takes 2 characters the app crashed. 
+After this was fixed, I was not allowed to enter a emoji then I copied emoji from other place and pasted in tht field again the app crashed.
+4. There was one more app C, where s filed had limit of 30 characters. I copied 31 characters from notepad in mobile and pasted it in the field and it accepted.
+
+
+          COMMON ISSUES
+I found all above articles are helpful and quite easy to catch up with the ideas. 
+Besides, I think you could hunt the specific answers about different tools in prestigious testing forums, especially in the tools’ official forums. 
+In my real experience, about technical problems, there are four common issues in test automation which could be listed out as below:
+
+Wait-time issues
+Iframe issues
+Pop-up issues in automation
+Issues in locating deeply nested elements
+Depend on which tool you are going to use/ using, the ways to solve might different.
+
+
+what are test design techniques	
+
+
+By design we mean to create a plan for how to implement an idea and technique is a method or way for performing a task. So, Test Design is creating a set of inputs for given software that will provide a set of expected outputs.  The idea is to ensure that the system is working good enough and it can be released with as few problems as possible for the average user.
+
+Broadly speaking there are two main categories of Test Design Techniques. They are:
+
+Static Techniques 
+Static testing is the testing of the software work products manually, or with a set of tools, but they are not executed.
+It starts early in the Life cycle and so it is done during the verification process.
+It does not need computer as the testing of program is done without executing the program. 
+For example:  reviewing, walk through, inspection, etc.
+Most static testing techniques can be used to ‘test’ any form of document including source code, 
+design documents and models, functional specifications and requirement specifications.
+Dynamic Techniques
+This testing technique needs computer for testing.
+It is done during Validation process.
+The software is tested by executing it on computer.
+Example of this Dynamic Testing Technique: Unit testing, integration testing, system testing.
+
+	
+if we dont have time to test call test cases what we will do	
+
+
+Have management define priorities.
+Look for duplicate coverage. Remove redundant tests.
+Use test cases with the most coverage.
+Enlist help from other teams if you can. E.g. have the documentation team walk through their documentation steps.
+
+	
+how we learn the functionality of system?	
+
+
+The prime objective of Functional testing is   checking the functionalities of the software system. It mainly concentrates on -
+
+Mainline functions:  Testing the main functions of an application
+Basic Usability: It involves basic usability testing of the system. It checks whether an user can freely navigate through the screens without any difficulties.
+Accessibility:  Checks the accessibility of the system for the user
+Error Conditions: Usage of testing techniques to check for error conditions.  It checks whether suitable error messages are displayed.
+
+	
+what are the tools to manage defects/stories?	
+
+
+Features of a defect management tool:
+Following are the core features of a defect management tool:
+Provides a centralized repository for tracking defects across projects.
+Provides automated notifications of resource assignments.
+Ability to define defect resolution status in order to map back to your defect management process.
+Ability to provide management reporting, like the number of open defects grouped by various criteria such as open defects by project, severity, and priority.
+
+
+        1) BugZilla
+
+
+
+        BugZilla is a popular bug tracking tool. These tool is an open source software and provides some great features like
+
+	E-mail notification for change in code
+	Reports and Charts
+	Patch Viewers
+	List of bugs can be generated in different formats
+	Schedule daily, monthly and weekly reports
+	Detect duplicate bug automatically
+	Setting bug priorities by involving customers
+	Predict the time a bug may get fixed
+
+        2) JIRA
+
+
+
+	Thousands of software professionals use JIRA as a bug-tracking tool because of its easy to use framework. 
+	JIRA is a commercial product and helps to capture and organize the team issues, prioritizing the issue and updating them with the project. 
+	It is a tool that directly integrates with the code development environments making it a perfect fit for developers as well. 
+	Due to its capability to track any kind of issues it is not just restricted to the software industry. 
+	It supports agile projects. It comes with many add-ons that make this tool more powerful than other tools
+
+
+	3) HP ALM/ Quality Center
+
+
+
+	HP ALM is a complete test management solution with a robust integrated bug tracking System within it. 
+	HP ALM's bug tracking mechanism is easy and efficient.
+	It supports Agile projects too. It is an expensive tool and may not be very friendly with all the web browsers.
+
+	16) Team Foundation Server
+
+
+
+	Team foundation server enables all stakeholders to participate in the development process using a single solution, 
+	but it is also used as a bug tracking tool. 
+	For bug tracking TFS gives notifications to team members as well as keeps the record of whom the bug was assigned to. 
+	Since TFS integrates with Active Directory, it is possible to send updates about the bug to the customer who filed the bug.
+
+	
+who will assign the work?	
+
+
+	
+what is requirement traceability matrix?
+
+
+The Requirements Traceability Matrix (RTM) is a document that links requirements throughout the validation process. 
+The purpose of the Requirements Traceability Matrix is to ensure that all requirements defined for a system are tested in the test protocols. 
+The traceability matrix is a tool both for the validation team, 
+to ensure that requirements are not lost during the validation project, and for auditors, to review the validation documentation.
+
+The requirements traceability matrix is usually developed in concurrence with the initial list of requirements 
+(either the User Requirements Specification or Functional Requirements Specification). 
+As the Design Specifications and Test Protocols are developed, the traceability matrix is updated to include the updated documents. 
+Ideally, requirements should be traced to the specific test step in the testing protocol in which they are tested.
+
+		
+what are typical environments we have in projects	
+
+The acronym DTAP is short for Development, Testing, Acceptance and Production.
+It is a rather common acronym in ICT expressing a phased approach of software testing and deployment. 
+The four letters in DTAP denote the following common steps:
+
+The program or component is developed on a Development system. This development environment might have no testing capabilities.
+Once the developer thinks it is ready, the product is copied to a Test environment, to verify it works as expected. 
+This test environment is supposedly standardized and in close alignment with the target environment.
+If the test is successful, the product is copied to an Acceptance test environment. 
+During the Acceptance test, the customer will test the product in this environment to verify whether it meets their expectations.
+If the customer accepts the product, it is deployed to a Production environment, making it available to all users of the system.
+The set of environments used for a DTAP cycle is often called a DTAP street.
+
+The set of environments can be smaller or larger, depending on the demands of the project. Examples of other steps are:
+
+Education – This extension of the DTAP-street is a training environment for the users of the production environment.
+Backup – The Backup site is used in case of Disaster recovery.
+Though the methodology is called DTAP, some projects might use DTAPB, DTP, DTEP or any other variant addressing the project needs.
+
+	
+what are different defect metrics and measurements we prepare in testing		
+
+http://www.softwaretestinghelp.com/software-test-metrics-and-measurements/
+
+
+what is development environment	
+
+In computer program and software product development, the development environment is the set of processes and programming tools used to create the program 
+or software product. The term may sometimes also imply the physical environment. 
+An integrated development environment is one in which the processes and tools are coordinated to provide developers 
+an orderly interface to and convenient view of the development process (or at least the processes of writing code, testing it, 
+and packaging it for use). An example of an IDE product is Microsoft's Visual Studio .NET. The term computer-assisted software environment 
+(CASE) is generally used to describe a set of tools and practices that facilitate management of a software development project.
+
+	
+what is QA environment
+
+The quality assurance environment is intended for you to use to complete quality assurance testing, such as functional or performance tests, and to test integrations.
+While this environment is fully clustered to support functional and performance testing scenarios, 
+the environment is sized at only a portion of your production environment capacity.
+
+		
+What is staging environment
+
+A stage or staging environment is an environment for testing that exactly resembles the production environment. 
+In other words, it's a complete but independent copy of the production environment, including the database. 
+Staging provides a true basis for QA testing because it precisely reproduces what is in production.
+
+		
+what is production environment	
+
+
+The production environment is the "live" environment that will host the running BizTalk solution. 
+The production environment is the final endpoint in the release management process and should only host BizTalk applications 
+that have previously undergone development, unit testing, load testing, and staging in the other environments. 
+Thorough unit testing, load testing, and staging beforehand will help ensure maximum performance and uptime for the BizTalk application in the production environment.
+	
+what is defect triage	
+
+Defect Triage Meetings are project meetings in which open bugs are divided into categories. 
+These meetings are held to analyze defects and to derive actions to be taken on them. 
+Basically priority and severity are defined for the bugs. 
+Other activities involve assigning or rejecting new defects created from the last triage meeting. 
+Apart from that, existing defects are reassigned if need arises.
+
+
+	
+if developer dont accept defect that is created, what we will do	
+
+
+Check the project specification to see if it is in fact a defect.
+Prove to the developer why this is a bug and how it is supposed to work
+After evaluating against the requirements, if it is a critical bug, then yes it needs to be fixed 
+and if the developer doesn't accept escalate to project manager. 
+If the bug is non critical/ occurs under rare circumstances, then this falls under risk management, 
+categorizing the bug as probably low risk and then managing it and evaluating based on number of occurences when it will need a fix.
+	
+how to deal the production defects?
+
+
+The best thing you can do is learn from it and prevent the same in the future. 
+I write an automated test-case for each defect found in production, since these are the brittle parts of the application
+Second I would plan a root cause analyses session and use the 5 whys technique to find the cause. Now find a solution to improve here and make it future proof.
+
+Dealing with a bug which slipped to PROD is not only responsibility of the tester who tested the module. 
+Even more responsible is the developer who wrote the code. Both Dev and QA teams should analyze it, find a way to prevent it. 
+Automated smoke tests? Developers suggesting which modules should be retested after changes? Etc.
+You cannot test-out quality. Quality has to be designed and developed in. Testing can only show presence of the bugs, not it absence.
+	
+Overview of the testing role
+
+
+? Diligently and accurately design test plans on software applications based on business requirements and
+technical specifications
+? Actively partake in building and executing automated testing scripts in support of the test plans
+? Meticulously record and document actual results and compare to expected results
+? Through defect management, effectively identify software failures so that defects may be discovered and
+corrected, be proactive in documenting anomalies and issues and maintain database of software defects
+? Efficiently generate historical analysis of test results
+? Methodically perform functional testing and load testing, and carefully verify specific action or function of
+code
+? Actively ensure compliance with general programming best practices, accepted web standards and those
+standards set forth in FirstOntario’s documented policy and procedure
+? Zealously participate in testing sprint and update meetings
+? Enthusiastically contribute in application planning meetings and application security audits
+? Accurately maintain and ensure FirstOntario’s data integrity standards
+? Eagerly investigate customer concerns and non-conformance issues
+? Be responsible for providing application instructions for users and meticulously document significant error
+handling procedures for application code
+? Be part of the bigger team and provide second line of support to the Service Desk and generated tickets
+? Act as a true business partner by means of escalating concerns to vendors and accurately maintain issue logs
+using Validate tools
+? Be willing to work flexible hours including evenings and weekends as the job demands and travel as required
+? Align your values with the Mission, Vision and Values of FirstOntario
+? Be a role model for FirstOntario’s organizational culture by creating a positive impact at every touchpoint with
+people, with every word you say or put in print and everything you do
+? Communicate in a fashion that is respectful and well understood
+? Collaborate with your peers and stakeholders to add to the collective innovative thinking that can drive new
+business ideas for FirstOntario
+? Exude your upbeat energy and enthusiasm each and every day
+? Build and utilize working relationships with internal business partners across the organization and external
+contracts
+? Actively participate in community events as part of FirstOntario’s overall commitment to Corporate Social
+Responsibility
+? Utilize Lean methodology to streamline work processes and realize cost and resource efficiencies
+? Be a change leader as FirstOntario continues to adapt to new and exciting ways of delivering business services
+? From a distance, make a difference in the lives of our members by helping our team members make members’
+financial dreams come true
+Jo
+
+
+
+
+

@@ -1,0 +1,26 @@
+web table in html
+
+how to know particular table is a webtable or not
+
+'tr' and 'td' tag names
+
+tr for creating rows
+td to columns in a particular row tr
+
+table
+        tr 
+            td
+            td
+            td
+            td
+        tr
+            td
+            td
+            td
+            
+            
+
+
+
+
+

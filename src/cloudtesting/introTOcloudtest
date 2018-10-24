@@ -1,0 +1,21 @@
+cloud 
+infrastructure that is different from your computer infrastructure
+if your req are higher than the infrastructure you have
+
+access to the servers to test some test cases
+
+sauce labs =automation+manual in cloud
+
+1)sauce lab account+integrate testcases with sauce lab
+
+you can test selenium+appium+manual
+
+
+desired capabilities is used for this process
+
+vm virtual machines like windows/linux/ios, firefox/chrome
+
+     platform Android Chrome/iphone ios
+     
+ 
+

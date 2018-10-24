@@ -1,0 +1,61 @@
+1 hub/machine testing different machines browsers 
+
+
+cmd 
+
+change directory
+
+c>users>user>pushd D:
+D>pushd C:
+C>java -jar selenium-server-standalone-2.44.0.jar -role hub
+(becomes the hub for the grid)
+
+http://localhost:4444/grid/console
+(opens the console)
+
+(note the ip address)
+cmd
+c>ipconfig
+
+ip address: 192.168.0.9
+
+
+in node machine
+(access hub machine with node machine )
+http://192.168.0.9:4444/grid/console
+(if console opens, then it is able to access the hubmachine from node machine)
+
+
+but you didnt give the connection from hub to node
+download the server standalone jar into the c drive and 
+c:\>java -jar selenium-server-standalone-2.44.0.jar -role webdriver -hub http://192.168.0.9:4444/grid/register -port 5566
+enter
+launching server
+
+
+hub machine ip: 
+node machine ip:
+
+capabilities --to set the driver where the run should be taken place
+
+
+prog
+
+public static void main(String args[]){
+
+
+
+DesiredCapabilities capabilities=DesiredCapabilities.firefox();//go and execute in firefox
+//where is firefox
+capabilities.setCapability(FirefoxDriver.BINARY,new File("C:\\Program Files\\Mozilla Firefox\\firefox.exe").getAbsolutePath());
+capabilities.setJavascriptEnabled(true);
+WebDriver driver=new RemoteWebDriver(new URL("http://1292.168.0.106:5566/wd/hub"),capabilities);
+driver.get("http://google.com");
+
+
+
+}
+
+
+
+
